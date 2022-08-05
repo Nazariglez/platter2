@@ -17,19 +17,18 @@ maintenance = { status = "actively-developed" }
 "web-sys" = ["web_sys", "js-sys", "wasm-bindgen"]
 
 [dependencies]
-futures-util = { version = "0.3.0", default-features = false }
-stdweb = { version = "0.4.18", optional = true }
+futures-util = { version = "0.3.21", default-features = false }
+stdweb = { version = "0.4.20", optional = true }
 
-js-sys = { version = "0.3.25", optional = true }
-wasm-bindgen = { version = "0.2.48", optional = true }
+js-sys = { version = "0.3.59", optional = true }
+wasm-bindgen = { version = "0.2.82", optional = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies.web_sys]
 package = "web-sys"
-version = "0.3.24"
+version = "0.3.59"
 optional = true
 features = [
     "XmlHttpRequest",
     "XmlHttpRequestEventTarget",
     "XmlHttpRequestResponseType",
 ]
-
