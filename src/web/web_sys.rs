@@ -36,6 +36,7 @@ fn poll_request(
         let wake_up = wake_up.as_ref().unchecked_ref();
         xhr.set_onload(Some(&wake_up));
         xhr.set_onerror(Some(&wake_up));
+        wake_up.forget();
     }
     let status = xhr
         .status()
