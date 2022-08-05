@@ -1,14 +1,14 @@
 [package]
-name = "platter"
+name = "platter2"
 description = "Load files on web and desktop asynchronously"
-version = "0.1.4"
+version = "0.1.5"
 authors = ["Ryan Goldstein <ryanisaacg@gmail.com>"]
 categories = ["filesystem"]
 keywords = ["async", "file"]
 license = "MIT OR Apache-2.0 OR Zlib"
-edition = "2018"
+edition = "2021"
 readme = "README.md"
-repository = "https://github.com/ryanisaacg/platter"
+repository = "https://github.com/Nazariglez/platter2"
 
 [badges]
 maintenance = { status = "actively-developed" }
